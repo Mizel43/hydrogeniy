@@ -74,6 +74,7 @@ html, body {
 }
 
 .scrin1 {
+  position: relative;
   overflow: hidden;
   margin: 0 auto;
   margin-top: 29px;
@@ -113,6 +114,8 @@ html, body {
   display: flex;
   margin: 0 auto;
   margin-top: 27px;
+  position: relative;
+  z-index: 99;
 }
 
 .scrin1__btn_start span {
@@ -169,6 +172,7 @@ html, body {
   z-index: 1;
   bottom: 0;
 }
+
 
 #coin1 {
   position: fixed;
@@ -239,7 +243,7 @@ html, body {
   border-radius: 23px;
 }
 
-.scrin2__btn:focus {
+.scrin2__btn:active {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -513,6 +517,8 @@ html, body {
   width: 369px;
   height: 55px;
 
+  position: relative;
+  z-index: 99;
 }
 
 .form__pc {
@@ -523,6 +529,8 @@ html, body {
   text-align: center;
   letter-spacing: 0.015em;
   color: #000000;
+  position: relative;
+  z-index: 99;
 }
 
 #minman {
@@ -573,6 +581,8 @@ html, body {
   border-bottom: 1px solid #A4A4A4;
   margin-bottom: 20px;
   width: 367px;
+  position: relative;
+  z-index: 99;
 }
 
 #phone__flag {
