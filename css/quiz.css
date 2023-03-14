@@ -209,6 +209,10 @@ html, body {
 /* =========== scrin2 ===================== */
 /* =========== scrin2 ===================== */
 /* =========== scrin2 ===================== */
+.scrin2__quiz{
+  z-index: 99;
+  overflow: hidden;
+}
 
 .scrin2__title {
   padding-top: 12px;
@@ -476,6 +480,11 @@ html, body {
 /* =========== scrin6 ===================== */
 /* =========== scrin6 ===================== */
 /* =========== scrin6 ===================== */
+
+.scrin6{
+  z-index: 99;
+  overflow: hidden;
+}
 
 .scrin6__title {
   font-weight: 700;
