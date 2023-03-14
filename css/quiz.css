@@ -40,12 +40,14 @@ html, body {
 }
 
 .wrapper {
+  position: relative;
   max-height: 800px;
   max-width: 400px;
   overflow: hidden;
 }
 
 .container {
+  position: fixed;
   width: 400px;
   height: 800px;
   padding-top: 41px;
