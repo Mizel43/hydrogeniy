@@ -229,6 +229,9 @@ html, body {
   background: #FFFFFF;
   box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.35);
   border-radius: 23px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .scrin2__btn:focus {
@@ -236,14 +239,12 @@ html, body {
 }
 
 .scrin2__btn span {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
   font-weight: 600;
   font-size: 50px;
   line-height: 100%;
   text-align: center;
   letter-spacing: 0.015em;
+  color: #000;
 }
 
 #coin7 {
