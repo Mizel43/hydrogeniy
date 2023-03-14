@@ -40,8 +40,8 @@ html, body {
 }
 
 .wrapper {
-  max-height: 100%;
-  max-width: 100%;
+  max-height: 800px;
+  max-width: 400px;
   overflow: hidden;
 }
 
@@ -71,10 +71,11 @@ html, body {
   margin-top: 4px;
 }
 
-.scrin1{
+.scrin1 {
   margin: 0 auto;
   margin-top: 29px;
 }
+
 .title {
   font-weight: 700;
   text-align: center;
@@ -235,6 +236,9 @@ html, body {
 }
 
 .scrin2__btn span {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   font-weight: 600;
   font-size: 50px;
   line-height: 100%;
@@ -557,12 +561,12 @@ html, body {
   width: 367px;
 }
 
-#phone__flag{
+#phone__flag {
   position: relative;
   padding-left: 37px;
 }
 
-#flag{
+#flag {
   position: absolute;
   left: 15px;
 }
