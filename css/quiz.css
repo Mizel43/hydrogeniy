@@ -49,11 +49,7 @@ html, body {
   width: 400px;
   height: 800px;
   padding-top: 41px;
-  top: 0;
-  left: 0;
-  right: 0;
   overflow: hidden;
-  z-index: 99;
 }
 
 .heder-fixed {
@@ -76,8 +72,11 @@ html, body {
 }
 
 .scrin1 {
+  position: absolute;
+  top: 0;
   margin: 0 auto;
-  margin-top: 29px;
+  margin-top: 70px;
+  z-index: 99;
 }
 
 .title {
