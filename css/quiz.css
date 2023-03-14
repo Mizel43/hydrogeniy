@@ -72,10 +72,9 @@ html, body {
 }
 
 .scrin1 {
-  position: absolute;
-  top: 0;
+  overflow: hidden;
   margin: 0 auto;
-  margin-top: 70px;
+  margin-top: 29px;
   z-index: 99;
 }
 
