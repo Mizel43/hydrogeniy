@@ -23,14 +23,24 @@
           <h1>Начни зарабатывать<br> вместе с <span>HYDROGENIY</span>
           </h1>
         </div>
-        <form class="form" action="#" method="">
-          <input class="input__deco" type="text" name="name1" placeholder="Имя" required>
-          <input class="input__deco" type="text" name="name2" placeholder="Фамилия" required>
-          <input class="input__deco" type="email" name="email" placeholder="Email" required pattern="\S+@[a-z]+.[a-z]+">
-          <input id="phone__flag" class="input__deco" type="tel" name="tel" placeholder="Номер телефона" required>
-          <img id="flag" src="../img/flag.png" alt="flag">
+        <form class="form" action="#" novalidate>
+          <div class="form__item">
+            <input class="input__deco js-input" type="text" name="name" placeholder="Имя">
+          </div>
+          <div class="form__item">
+            <input class="input__deco js-input" type="text" name="last name" placeholder="Фамилия">
+          </div>
+          <div class="form__item">
+            <input class="input__deco js-input" type="email" name="email" placeholder="Email"  pattern="\S+@[a-z]+.[a-z]+">
+          </div>
+          <div class="form__item">
+            <input id="phone__flag" class="input__deco js-input js-input-phone tel" type="tel" name="tel" placeholder="Номер телефона">
+            <img id="flag" src="../img/flag.png" alt="flag">
+          </div>
   
-          <input class="green__btn" type="submit" value="Отправить заявку">
+          <button class="green__btn" type="submit">
+            Отправить заявку
+          </button>
         </form>
         <div class="form__pc">Нажимая на кнопку “Отправить заявку” я даю согласие на сбор адреса<br>
           моей электронной почты для коммерческих предложений
