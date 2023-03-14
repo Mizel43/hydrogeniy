@@ -48,13 +48,13 @@ html, body {
 .container {
   max-width: 400px;
   margin: 0 auto;
-  height: 800;
+  height: 800px;
 }
 
 .heder-fixed {
   position: relative;
   z-index: 100;
-  max-width: 400px;
+  width: 100%;
   height: 41px;
   background-color: #ffffff;
   border: #0971F5 solid;
@@ -139,15 +139,17 @@ html, body {
 }
 
 .coin1 {
-  position: absolute;
-  top: 70%;
-  right: 90%;
+  position: fixed;
+  bottom: 0;
+  left: 0%;
+  z-index: 3;
 }
 
 .coin2 {
-  position: absolute;
-  top: 64%;
-  right: -2%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
 }
 
 .scrin1__bigman-img {
@@ -556,9 +558,4 @@ html, body {
 #flag{
   position: absolute;
   left: 15px;
-}
-
-input:invalid::placeholder{
-  border-color: red;
-
 }
